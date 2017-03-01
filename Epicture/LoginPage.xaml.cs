@@ -110,7 +110,7 @@ namespace Epicture {
 
                         NotifyUser("Oauth: " + oauth_token + "\nSecret: " + oauth_token_secret);
 
-                        FlickrUrl = "https://secure.flickr.com/services/oauth/authorize?oauth_token=" + oauth_token + "&perms=read";
+                        FlickrUrl = "https://secure.flickr.com/services/oauth/authorize?oauth_token=" + oauth_token + "&perms=write";
                         System.Uri StartUri = new Uri(FlickrUrl);
                         System.Uri EndUri = new Uri(FlickrCallbackUrl);
 
@@ -119,6 +119,8 @@ namespace Epicture {
                                                                 WebAuthenticationOptions.UseTitle,
                                                                 StartUri,
                                                                 EndUri);
+
+                        Debug.WriteLine("Test A");
                         if (WebAuthenticationResult.ResponseStatus == WebAuthenticationStatus.Success) {
                             Output = WebAuthenticationResult.ResponseData.ToString();
                         } else if (WebAuthenticationResult.ResponseStatus == WebAuthenticationStatus.ErrorHttp) {
@@ -126,7 +128,7 @@ namespace Epicture {
                         } else {
                             Output = "Error returned by AuthenticateAsync() : " + WebAuthenticationResult.ResponseStatus.ToString();
                         }
-
+                        Debug.WriteLine("Test B");
                         Debug.WriteLine(Output);
                     }
                 }
