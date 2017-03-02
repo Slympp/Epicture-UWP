@@ -215,3 +215,8 @@ D:\Work\Epicture_UWP\Epicture\obj\x86\Debug\LoginPage.g.i.cs
 D:\Work\Epicture_UWP\Epicture\obj\x86\Debug\LoginPage.g.cs
 D:\Work\Epicture_UWP\Epicture\obj\x86\Debug\LoginPage.xaml
 D:\Work\Epicture_UWP\Epicture\obj\x86\Debug\LoginPage.xbf
+D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Auth0.LoginClient.dll
+D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Auth0.LoginClient.pdb
+D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Work\Epicture_UWP\Epicture\obj\x86\Debug\Epicture.csproj.GenerateResource.Cache
+D:\Work\Epicture_UWP\Epicture\obj\x86\Debug\Auth0.LoginClient.pri.xml

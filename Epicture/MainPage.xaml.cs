@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Auth0.LoginClient;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -23,31 +24,20 @@ namespace Epicture
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private bool connected = false;
+        Params param = null;
 
         public MainPage()
         {
-            this.InitializeComponent();
-
-            if (connected) {
-                MenuButtonHome.IsEnabled = true;
-                MenuButtonUpload.IsEnabled = true;
-                MenuButtonSearch.IsEnabled = true;
-                MenuButtonProfile.IsEnabled = true;
-                MenuButtonLogout.IsEnabled = true;
-                contentFrame.Navigate(typeof(HomePage), new Params() { oauth_token = "token", api_key = "key" });
-            } else {
-                MenuButtonHome.IsEnabled = false;
-                MenuButtonUpload.IsEnabled = false;
-                MenuButtonSearch.IsEnabled = false;
-                MenuButtonProfile.IsEnabled = false;
-                MenuButtonLogout.IsEnabled = false;
-                contentFrame.Navigate(typeof(LoginPage));
-            }
+            this.InitializeComponent();            
         }
 
-        internal void NotifyUser(string v, object statusMessage) {
-            throw new NotImplementedException();
+        protected override void OnNavigatedTo(NavigationEventArgs e) {
+
+            param = e.Parameter as Params;
+            if (param != null) {
+                contentFrame.Navigate(typeof(HomePage), param);
+            }
+            base.OnNavigatedTo(e);
         }
 
         private void OpenPaneButton_Click(object sender, RoutedEventArgs e) {
@@ -55,29 +45,31 @@ namespace Epicture
         }
 
         private void HomeButton_Click(object sender, RoutedEventArgs e) {
-            contentFrame.Navigate(typeof(HomePage), new Params() { oauth_token = "token", api_key="key" });
+            contentFrame.Navigate(typeof(HomePage), param);
         }
 
         private void UploadButton_Click(object sender, RoutedEventArgs e) {
-            contentFrame.Navigate(typeof(UploadPage), new Params() { oauth_token = "token", api_key = "key" });
+            contentFrame.Navigate(typeof(UploadPage), param);
         }
 
         private void SearchButton_Click(object sender, RoutedEventArgs e) {
-            contentFrame.Navigate(typeof(SearchPage), new Params() { oauth_token = "token", api_key = "key" });
+            contentFrame.Navigate(typeof(SearchPage), param);
         }
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e) {
-            contentFrame.Navigate(typeof(ProfilePage), new Params() { oauth_token = "token", api_key = "key" });
+            contentFrame.Navigate(typeof(ProfilePage), param);
         }
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e) {
-            Debug.WriteLine("Logout");
+
+            //TODO: call to param.auth0 logout
+            param = null;
+            this.Frame.Navigate(typeof(LoginPage));
         }
     }
 
     public class Params {
 
-        public string oauth_token { get; set; }
-        public string api_key { get; set; }
+        public Auth0Client auth0 { get; set; }
     }
 }

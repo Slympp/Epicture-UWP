@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Epicture.exe">
       <PackagePath>entrypoint\Epicture.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Auth0.Windows.UWP\1.1.0\lib\uap10.0\Auth0.LoginClient.dll">
+      <PackagePath>Auth0.LoginClient.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -69,6 +72,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Newtonsoft.Json\8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\runtime.any.System.Private.DataContractSerialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
@@ -334,8 +340,8 @@
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\Assets\flickr-logo.png">
-      <PackagePath>Assets\flickr-logo.png</PackagePath>
+    <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\Assets\imgur-logo.png">
+      <PackagePath>Assets\imgur-logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

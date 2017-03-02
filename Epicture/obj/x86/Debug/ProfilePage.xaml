@@ -7,8 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Margin="10,0,0,0" Text="Profile" FontSize="18" VerticalAlignment="Center" />
-    </Grid>
+        <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Center">
+
+            <Image x:ConnectionId='1' x:Name="PictureImage" Width="90" Height="90" VerticalAlignment="Top" Margin="30"></Image>
+            <TextBlock x:ConnectionId='2' x:Name="NameText" Text="Name: " Margin="0,10,0,0"></TextBlock>
+            <TextBlock x:ConnectionId='3' x:Name="NicknameText" Text="Nickname: " Margin="0,10,0,0"></TextBlock>
+            <TextBlock x:ConnectionId='4' x:Name="EmailText" Text="Email: " Margin="0,10,0,0"></TextBlock>
+            <TextBlock x:ConnectionId='5' x:Name="EmailVerifiedText" Text="Email is verified ? " Margin="0,10,0,0"></TextBlock>
+        </StackPanel>
 </Page>
 

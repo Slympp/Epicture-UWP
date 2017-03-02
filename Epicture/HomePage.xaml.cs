@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Web.Http;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,7 +26,17 @@ namespace Epicture {
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e) {
-            Params result = (Params)e.Parameter;
+            Params param = (Params)e.Parameter;
+            if (param != null) {
+                HelloText.Text = "Hello, " + param.auth0.CurrentUser.Profile["name"].ToString();
+
+
+
+                //var client = new RestClient("https://api.imgur.com/3/account/me/images");
+                //var request = new RestRequest(Method.GET);
+                //request.AddHeader("content-type", "application/json");
+                //IRestResponse response = client.Execute(request);
+            }
             base.OnNavigatedTo(e);
         }
     }

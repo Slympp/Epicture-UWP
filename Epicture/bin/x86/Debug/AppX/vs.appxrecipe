@@ -28,13 +28,17 @@
     <AppXManifest Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-01T17:34:06.397</Modified>
+      <Modified>2017-03-02T16:31:51.060</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Epicture.exe">
       <PackagePath>entrypoint\Epicture.exe</PackagePath>
-      <Modified>2017-03-01T17:34:06.247</Modified>
+      <Modified>2017-03-02T16:31:50.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Auth0.Windows.UWP\1.1.0\lib\uap10.0\Auth0.LoginClient.dll">
+      <PackagePath>Auth0.LoginClient.dll</PackagePath>
+      <Modified>2016-12-17T10:42:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -95,6 +99,10 @@
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2015-07-22T21:07:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Newtonsoft.Json\8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-01-09T12:50:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\runtime.any.System.Private.DataContractSerialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
@@ -448,9 +456,9 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\Assets\flickr-logo.png">
-      <PackagePath>Assets\flickr-logo.png</PackagePath>
-      <Modified>2017-02-24T17:48:03.465</Modified>
+    <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\Assets\imgur-logo.png">
+      <PackagePath>Assets\imgur-logo.png</PackagePath>
+      <Modified>2017-03-02T13:49:44.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -492,7 +500,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Epicture.xr.xml">
       <PackagePath>Epicture.xr.xml</PackagePath>
-      <Modified>2017-03-01T16:45:56.520</Modified>
+      <Modified>2017-03-02T15:51:23.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -500,11 +508,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-03-01T16:45:56.932</Modified>
+      <Modified>2017-03-02T16:30:59.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Core\Epicture.exe">
       <PackagePath>Epicture.exe</PackagePath>
-      <Modified>2017-03-01T17:34:06.392</Modified>
+      <Modified>2017-03-02T16:31:51.058</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
