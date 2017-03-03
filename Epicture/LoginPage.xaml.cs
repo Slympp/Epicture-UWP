@@ -37,8 +37,8 @@ namespace Epicture {
         private async void Login() {
 
             Auth0Client auth0 = new Auth0Client("slymp.eu.auth0.com", "hXdMFb2pqd1a0gz9bdtCJP43YB8IyARh");
-
             Auth0User user = await auth0.LoginAsync();
+
             if (user != null)
                 this.Frame.Navigate(typeof(MainPage), new Params() { auth0 = auth0 });
             else

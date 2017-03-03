@@ -290,13 +290,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -2137,13 +2137,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -3899,13 +3899,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
@@ -5628,13 +5628,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -7393,13 +7393,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
@@ -9122,13 +9122,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -10887,13 +10887,13 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/8.0.2": {
+      "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
@@ -12971,11 +12971,11 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "Newtonsoft.Json/8.0.2": {
-      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "type": "package",
       "files": [
-        "Newtonsoft.Json.8.0.2.nupkg.sha512",
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
         "Newtonsoft.Json.nuspec",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -12985,10 +12985,12 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "tools/install.ps1"
       ]
     },
@@ -15678,7 +15680,8 @@
   "projectFileDependencyGroups": {
     "": [
       "Auth0.Windows.UWP >= 1.1.0",
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
+      "Newtonsoft.Json >= 9.0.1"
     ],
     "UAP,Version=v10.0": []
   }
