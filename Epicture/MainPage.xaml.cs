@@ -52,9 +52,9 @@ namespace Epicture
             contentFrame.Navigate(typeof(UploadPage), param);
         }
 
-        private void SearchButton_Click(object sender, RoutedEventArgs e) {
-            contentFrame.Navigate(typeof(SearchPage), param);
-        }
+        //private void SearchButton_Click(object sender, RoutedEventArgs e) {
+        //    contentFrame.Navigate(typeof(SearchPage), param);
+        //}
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e) {
             contentFrame.Navigate(typeof(ProfilePage), param);

@@ -1,0 +1,1 @@
+D:\Work\Epicture_UWP\Epicture\Epicture.csproj;x64

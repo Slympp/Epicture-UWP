@@ -7,11 +7,13 @@ rhbind.exe      : 1.4.24208.1 built by: PROJECTNGDR2
 sg.exe          : 1.0.24208.01 built by: PROJECTNGDR2
 
 Framework:
+Auth0.LoginClient.dll                                  : 1.0.1.0
 ClrCompression.dll                                     : 1.0.23123.00 built by: PROJECTKREL
 Microsoft.CSharp.dll                                   : 4.6.23123.00
 Microsoft.VisualBasic.dll                              : 4.6.23123.00 built by: PROJECTKREL
 Microsoft.Win32.Primitives.dll                         : 4.6.23123.00
 mscorlib.dll                                           : 4.6.23123.0
+Newtonsoft.Json.dll                                    : 9.0.1.19813
 System.AppContext.dll                                  : 4.6.23123.00 built by: PROJECTKREL
 System.Collections.Concurrent.dll                      : 4.6.23123.00
 System.Collections.dll                                 : 4.6.23123.00 built by: PROJECTKREL

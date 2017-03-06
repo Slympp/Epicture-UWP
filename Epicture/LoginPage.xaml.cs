@@ -56,7 +56,7 @@ namespace Epicture {
         }
 
         private void MyWebView_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args) {
-            if (args.IsSuccess == true && args.Uri == new Uri("https://www.google.fr/")) {
+            if (args.IsSuccess == true && args.Uri == new Uri("http://conan.akylonia.net/perso.html")) {
                 waitForNavComplete.Set();
 
                 String[] Results = args.Uri.ToString().Substring(args.Uri.ToString().IndexOf('#') + 1).Split('&');

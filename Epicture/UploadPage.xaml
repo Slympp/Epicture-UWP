@@ -7,7 +7,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Margin="10,0,0,0" Text="Upload" FontSize="18" VerticalAlignment="Center" />
-    </Grid>
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <TextBox x:Name="titleBox" PlaceholderText="Enter a title (optional)" Header="Title" Margin="30,50,20,30"></TextBox>
+
+        <TextBox x:Name="albumIdBox" PlaceholderText="Enter an album ID (optional)" Header="Album ID " Margin="30,0,20,30"></TextBox>
+
+        <TextBox x:Name="descriptionBox" PlaceholderText="Enter a description (optional)" Header="Description" Margin="30,0,20,40"></TextBox>
+
+        <Button x:Name="SelectButton" Content="Select a file" HorizontalAlignment="Center" Click="SelectButton_Click"/>
+        <TextBlock x:Name="pickerText" Text="No file selected..." Margin="15"  HorizontalAlignment="Center"></TextBlock>
+
+        <Button x:Name="UploadButton" Margin="0,70,0,0" Content="Upload" HorizontalAlignment="Center" Click="UploadButton_Click"/>
+        <TextBlock x:Name="uploadReturn" Text="" Margin="15"  HorizontalAlignment="Center"></TextBlock>
+
+    </StackPanel>
 </Page>

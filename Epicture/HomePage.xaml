@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="HelloText" Margin="0,30,0,0" Text="Home" FontSize="18" HorizontalAlignment="Center" />
-    </Grid>
+    <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10, 20, 10, 20" x:Name="MainPanel">
+            <TextBlock x:Name="HelloText" Margin="0,0,0,20" Text="Home" FontSize="18" HorizontalAlignment="Center" />
+
+        </StackPanel>
+    </ScrollViewer>
 </Page>
+

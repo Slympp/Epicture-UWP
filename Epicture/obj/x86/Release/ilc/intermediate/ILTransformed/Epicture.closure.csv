@@ -1,7 +1,10 @@
+Auth0.LoginClient, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null
 Epicture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Epicture.McgInterop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 Microsoft.Win32.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
 System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Collections.Concurrent, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -23,6 +26,8 @@ System.IO.IsolatedStorage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f
 System.IO.UnmanagedMemoryStream, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Linq.Expressions, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Net.Primitives, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Numerics.Vectors, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.ObjectModel, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Private.CompilerServices.ICastable, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -77,3 +82,5 @@ System.Threading, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d5
 System.Threading.Overlapped, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.Tasks, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.Tasks.Parallel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Xml.ReaderWriter, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Xml.XDocument, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a

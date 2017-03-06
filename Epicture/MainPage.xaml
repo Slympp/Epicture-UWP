@@ -31,11 +31,11 @@
                     <TextBlock Margin="10,0,0,0" Text="Upload" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
+                <!--<StackPanel Orientation="Horizontal">
                     <Button x:Name="MenuButtonSearch" FontFamily="Segoe MDL2 Assets" Content="&#xE11A;"
                         Width="50" Height="50" Background="Transparent" Click="SearchButton_Click"/>
                     <TextBlock Margin="10,0,0,0" Text="Search" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
+                </StackPanel>-->
 
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="MenuButtonProfile" FontFamily="Segoe MDL2 Assets" Content="&#xE13D;"

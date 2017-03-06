@@ -7,12 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-        <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Center">
+        <StackPanel x:Name="MainPanel" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Center">
+        <Image x:Name="Avatar" MaxWidth="200" MaxHeight="200" VerticalAlignment="Top" Margin="30"></Image>
 
-            <Image x:Name="PictureImage" Width="90" Height="90" VerticalAlignment="Top" Margin="30"></Image>
-            <TextBlock x:Name="NameText" Text="Name: " Margin="0,10,0,0"></TextBlock>
-            <TextBlock x:Name="NicknameText" Text="Nickname: " Margin="0,10,0,0"></TextBlock>
-            <TextBlock x:Name="EmailText" Text="Email: " Margin="0,10,0,0"></TextBlock>
-            <TextBlock x:Name="EmailVerifiedText" Text="Email is verified ? " Margin="0,10,0,0"></TextBlock>
-        </StackPanel>
+    </StackPanel>
 </Page>

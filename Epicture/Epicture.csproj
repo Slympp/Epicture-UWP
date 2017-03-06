@@ -124,6 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\imgur-logo.png" />
+    <Content Include="Assets\person.png" />
     <Content Include="Properties\Default.rd.xml">
       <SubType>Designer</SubType>
     </Content>

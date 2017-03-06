@@ -11,7 +11,9 @@ namespace Epicture {
         public string response { get; set; }
 
         public async Task GetRequest(Uri requestUri, string token) {
+
             HttpClient httpClient = new HttpClient();
+            Debug.WriteLine("[GET] " + requestUri);
 
             httpClient.DefaultRequestHeaders.Add("Authorization", string.Format("Bearer {0}", token));
             var httpResponseMessage = await httpClient.GetAsync(requestUri);
