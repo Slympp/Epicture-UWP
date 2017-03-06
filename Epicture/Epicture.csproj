@@ -114,6 +114,7 @@
     <Compile Include="UploadPage.xaml.cs">
       <DependentUpon>UploadPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

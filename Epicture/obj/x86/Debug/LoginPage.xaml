@@ -9,14 +9,16 @@
 
     <Grid  Background="White">
 
-        <StackPanel VerticalAlignment="Center" Margin="30 -20 30 30">
+        <StackPanel x:ConnectionId='1' x:Name="HomeContent" VerticalAlignment="Center" Margin="30 -20 30 30">
 
             <Image Source="Assets/imgur-logo.png" Width="250" Margin="0 0 0 20"></Image>
 
-            <Button x:ConnectionId='1' Margin="0 20 0 0" FontSize="24" HorizontalAlignment="Center" Content="Login"                          ></Button>
+            <Button x:ConnectionId='3' Margin="0 20 0 0" FontSize="24" HorizontalAlignment="Center" Content="Login"                          ></Button>
 
-            <TextBlock x:ConnectionId='2' FontWeight="Bold" Margin="0 30 0 10" TextAlignment="Center" x:Name="textResponse" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Foreground="Red"/>
+            <TextBlock x:ConnectionId='4' FontWeight="Bold" Margin="0 30 0 10" TextAlignment="Center" x:Name="textResponse" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Foreground="Red"/>
         </StackPanel>
+        
+        <WebView x:ConnectionId='2'                                                                                                   Visibility="Collapsed" x:Name="MyWebView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
     </Grid>
 </Page>
 

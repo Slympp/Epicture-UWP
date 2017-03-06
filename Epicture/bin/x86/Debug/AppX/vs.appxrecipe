@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-03T20:46:57.168</Modified>
+      <Modified>2017-03-06T12:07:43.648</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Epicture.exe">
       <PackagePath>entrypoint\Epicture.exe</PackagePath>
-      <Modified>2017-03-03T20:46:56.869</Modified>
+      <Modified>2017-03-06T12:07:43.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slymp\.nuget\packages\Auth0.Windows.UWP\1.1.0\lib\uap10.0\Auth0.LoginClient.dll">
       <PackagePath>Auth0.LoginClient.dll</PackagePath>
@@ -500,7 +500,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Epicture.xr.xml">
       <PackagePath>Epicture.xr.xml</PackagePath>
-      <Modified>2017-03-02T15:51:23.817</Modified>
+      <Modified>2017-03-06T10:54:13.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -508,11 +508,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-03-03T15:58:38.398</Modified>
+      <Modified>2017-03-06T11:37:44.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\Epicture_UWP\Epicture\bin\x86\Debug\Core\Epicture.exe">
       <PackagePath>Epicture.exe</PackagePath>
-      <Modified>2017-03-03T20:46:57.166</Modified>
+      <Modified>2017-03-06T12:07:43.646</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -25,8 +25,9 @@ namespace Epicture {
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e) {
-            Params result = (Params)e.Parameter;
-            base.OnNavigatedTo(e);
+            Params param = (Params)e.Parameter;
+            if (param != null) { }
+                base.OnNavigatedTo(e);
         }
     }
 }

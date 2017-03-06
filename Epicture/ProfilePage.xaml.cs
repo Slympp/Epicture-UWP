@@ -28,20 +28,19 @@ namespace Epicture {
 
         protected override void OnNavigatedTo(NavigationEventArgs e) {
             Params param = (Params)e.Parameter;
-
             if (param != null) {
-                PictureImage.Source = new BitmapImage(new Uri(param.auth0.CurrentUser.Profile["picture"].ToString(), UriKind.Absolute)); 
-                NameText.Text = "Name: " + param.auth0.CurrentUser.Profile["name"].ToString();
-                NicknameText.Text = "Nickname: " + param.auth0.CurrentUser.Profile["nickname"].ToString();
-                EmailText.Text = "Email: " + param.auth0.CurrentUser.Profile["email"].ToString();
+                //    PictureImage.Source = new BitmapImage(new Uri(param.auth0.CurrentUser.Profile["picture"].ToString(), UriKind.Absolute)); 
+                //    NameText.Text = "Name: " + param.auth0.CurrentUser.Profile["name"].ToString();
+                //    NicknameText.Text = "Nickname: " + param.auth0.CurrentUser.Profile["nickname"].ToString();
+                //    EmailText.Text = "Email: " + param.auth0.CurrentUser.Profile["email"].ToString();
 
-                if ((bool)param.auth0.CurrentUser.Profile["email_verified"] == true) {
-                    EmailVerifiedText.Text = "Email address is verified";
-                    EmailVerifiedText.Foreground = new SolidColorBrush(Colors.Green);
-                } else {
-                    EmailVerifiedText.Text = "Email address is not verified";
-                    EmailVerifiedText.Foreground = new SolidColorBrush(Colors.Red);
-                }
+                //    if ((bool)param.auth0.CurrentUser.Profile["email_verified"] == true) {
+                //        EmailVerifiedText.Text = "Email address is verified";
+                //        EmailVerifiedText.Foreground = new SolidColorBrush(Colors.Green);
+                //    } else {
+                //        EmailVerifiedText.Text = "Email address is not verified";
+                //        EmailVerifiedText.Foreground = new SolidColorBrush(Colors.Red);
+                //    }
             }
             base.OnNavigatedTo(e);
         }

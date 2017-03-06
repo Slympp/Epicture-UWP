@@ -9,7 +9,7 @@
 
     <Grid  Background="White">
 
-        <StackPanel VerticalAlignment="Center" Margin="30 -20 30 30">
+        <StackPanel x:Name="HomeContent" VerticalAlignment="Center" Margin="30 -20 30 30">
 
             <Image Source="Assets/imgur-logo.png" Width="250" Margin="0 0 0 20"></Image>
 
@@ -17,5 +17,7 @@
 
             <TextBlock FontWeight="Bold" Margin="0 30 0 10" TextAlignment="Center" x:Name="textResponse" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Foreground="Red"/>
         </StackPanel>
+        
+        <WebView NavigationFailed="MyWebView_NavigationFailed" NavigationCompleted="MyWebView_NavigationCompleted" Visibility="Collapsed" x:Name="MyWebView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
     </Grid>
 </Page>

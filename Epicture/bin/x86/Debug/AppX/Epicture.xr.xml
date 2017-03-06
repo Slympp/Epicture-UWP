@@ -32,6 +32,13 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.WebView">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="NavigationFailed" />
+      <RootEvent Name="NavigationCompleted" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Width" />

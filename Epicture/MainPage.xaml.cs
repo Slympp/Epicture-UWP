@@ -24,7 +24,7 @@ namespace Epicture
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        Params param = null;
+        Params param;
 
         public MainPage()
         {
@@ -62,14 +62,17 @@ namespace Epicture
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e) {
 
-            //TODO: call to param.auth0 logout
-            param = null;
             this.Frame.Navigate(typeof(LoginPage));
         }
     }
 
-    public class Params {
+    class Params {
 
-        public Auth0Client auth0 { get; set; }
+        public string access_token { get; set; }
+        public string refresh_token { get; set; }
+        public string expires_in { get; set; }
+        public string token_type { get; set; }
+        public string account_username { get; set; }
+        public string account_id { get; set; }
     }
 }
